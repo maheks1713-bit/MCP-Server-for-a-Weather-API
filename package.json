@@ -1,0 +1,30 @@
+{
+  "name": "mcp-server-for-a-weather-api",
+  "version": "1.0.0",
+  "description": "MCP Server for weather data via Open-Meteo",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maheks1713-bit/MCP-Server-for-a-Weather-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maheks1713-bit/MCP-Server-for-a-Weather-API/issues"
+  },
+  "homepage": "https://github.com/maheks1713-bit/MCP-Server-for-a-Weather-API#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "typescript": "^6.0.2"
+  }
+}
